@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: rgb(103, 2, 112);
+    
+}
+.formF{
+    background-color: rgb(103, 2, 112);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+}
+.headingF{
+text-shadow: 0px 3px 10px  red;
+color: white;
+}
+.headingE{
+    text-shadow: 0px 3px 2px black;
+    color: rgb(255, 255, 255) ;
+}
+.inputF{
+    text-align:left;
+margin: 3px;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+color: black;
+width: 700px;
+}
+.btnS,.btnR{
+width: 150px;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+background-color: white;
+margin: 0px 4px;
+}
+.btnS:hover{
+    background-color:green;
+    color: white;
+    outline: none;
+}
+.btnR:hover{
+    background-color:red;
+    color: white;
+    outline: none;
+}
+
+.btnFF{
+margin: -2px;
+}
